@@ -1,5 +1,5 @@
 // ==UserScript==
-// @name        Imos Page Timer
+// @name        imos Page Timer
 // @namespace   tag://imos
 // @description Ein Timer der anzeigt wie lange man sich auf der aktuellen Redmine/OTRS Seite befindet.
 // @author      Endlessdeath, okj579
@@ -24,7 +24,7 @@ jQuery(function($){
         $('<input onclick="this.select()">').css({width:20}).val(title)
             .wrap('<div class="contextual">').parent().prependTo('#content');
     } else if (location.host.match(/otrs/)) {
-        $('#Header').append('<div style="position:absolute; top: 50px; right: 30px;">Time on Page: <span class="page-timer"></span></div>')
+        $('#Header').append('<div style="float: right; margin-right: 30em; font-weight: bold; color: red;">Time on Page: <span class="page-timer"></span></div>')
     }
 
     $('.page-timer').tinyTimer({
