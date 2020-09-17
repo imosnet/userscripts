@@ -32,8 +32,8 @@ Blendet interne Notizen aus
 
 
 ## Redmine Spent Time Hider
-[![Source][src]](redmine-spent-time-hider.js)
-[![Install][install]][redmine-spent-time-hider.js]
+[![Source][src]](redmine-spent-time-hider.user.js)
+[![Install][install]][redmine-spent-time-hider.user.js]
 
 Blendet aufgewendete Zeit aus
 
@@ -135,3 +135,4 @@ Schreibt den Projekt-Präfix (okj,test,live) in den Title für imosnet.de-WCs.
 [wc-title.user.js]: https://raw.githubusercontent.com/imosnet/userscripts/master/wc-title.user.js
 [redmine-title-copy-for-commit.user.js]: https://raw.githubusercontent.com/imosnet/userscripts/master/redmine-title-copy-for-commit.user.js
 [redmine-interne-notizen.user.js]: https://raw.githubusercontent.com/imosnet/userscripts/master/redmine-interne-notizen.user.js
+[redmine-spent-time-hider.user.js]: https://raw.githubusercontent.com/imosnet/userscripts/master/redmine-spent-time-hider.user.js
