@@ -6,7 +6,7 @@
 // @match       *://kunden.redmine.imos.net/*
 // @match       *://intern.redmine.imos.net/*
 // @match       *://otrs.hq.imos.net/*
-// @version     2.2
+// @version     2.3
 // @downloadURL https://raw.githubusercontent.com/imosnet/userscripts/master/imos-page-timer.user.js
 // @icon        https://kunden.redmine.imos.net/favicon.ico
 // @require     https://raw.github.com/odyniec/jQuery-tinyTimer/master/jquery.tinytimer.min.js
@@ -24,7 +24,8 @@ jQuery(function($){
         $('<input onclick="this.select()">').css({width:20}).val(title)
             .wrap('<div class="contextual">').parent().prependTo('#content');
     } else if (location.host.match(/otrs/)) {
-        $('#Header').append('<div style="float: right; margin-right: 30em; font-weight: bold; color: red;">Time on Page: <span class="page-timer"></span></div>')
+        $('#Header').append('<div style="float: right; margin-right: 30em; font-weight: bold; color: red;">Time on Page: <span class="page-timer"></span></div>');
+        $('.LayoutPopup').prepend('<div style="float: right; margin: 1em; font-weight: bold; color: red;">Time on Page: <span class="page-timer"></span></div>');
     }
 
     $('.page-timer').tinyTimer({
