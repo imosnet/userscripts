@@ -69,11 +69,11 @@ Fixt den Favicon.
 
 Verhindert Session-Ablauf-Fehlern und, dass iTerm dich automatisch ausloggt.
 
-## iTerm Keepalive
+## iTerm Actual Time
 [![Source][src]](iterm-actual-time.user.js)
 [![Install][install]][iterm-actual-time.user.js]
 
-Zeigt die aktuelle Arbeitszeit an und benachrichtigt den Benutzer, wenn er 8 Stunden gearbeitet hat
+Zeigt die aktuelle Arbeitszeit an und benachrichtigt den Benutzer, wenn er 8 Stunden gearbeitet hat.
 
 ## MDN I'm Feeling Lucky
 [![Source][src]](mdn-im-feeling-lucky.user.js)
