@@ -8,6 +8,7 @@
 - [Fake OptGroups](#fake-optgroups)
 - [iTerm Favicon](#iterm-favicon)
 - [iTerm Keepalive](#iterm-keepalive)
+- [iTerm Actual Time](#iterm-actual-time)
 - [MDN I'm Feeling Lucky](#mdn-im-feeling-lucky)
 - [imos Page Timer](#imos-page-timer)
 - [Party Parrot: PARTY OR DIE](#party-parrot-party-or-die)
@@ -67,6 +68,12 @@ Fixt den Favicon.
 [![Install][install]][iterm-keepalive.user.js]
 
 Verhindert Session-Ablauf-Fehlern und, dass iTerm dich automatisch ausloggt.
+
+## iTerm Keepalive
+[![Source][src]](iterm-actual-time.user.js)
+[![Install][install]][iterm-actual-time.user.js]
+
+Zeigt die aktuelle Arbeitszeit an und benachrichtigt den Benutzer, wenn er 8 Stunden gearbeitet hat
 
 ## MDN I'm Feeling Lucky
 [![Source][src]](mdn-im-feeling-lucky.user.js)
