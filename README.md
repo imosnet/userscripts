@@ -132,6 +132,7 @@ Schreibt den Projekt-Präfix (okj,test,live) in den Title für imosnet.de-WCs.
 [fake-optgroups.user.js]: https://raw.githubusercontent.com/imosnet/userscripts/master/fake-optgroups.user.js
 [iterm-favicon.user.js]: https://raw.githubusercontent.com/imosnet/userscripts/master/iterm-favicon.user.js
 [iterm-keepalive.user.js]: https://raw.githubusercontent.com/imosnet/userscripts/master/iterm-keepalive.user.js
+[iterm-actual-time.user.js]: https://raw.githubusercontent.com/imosnet/userscripts/master/iterm-actual-time.user.js
 [mdn-im-feeling-lucky.user.js]: https://raw.githubusercontent.com/imosnet/userscripts/master/mdn-im-feeling-lucky.user.js
 [page-timer.user.js]: https://raw.githubusercontent.com/imosnet/userscripts/master/page-timer.user.js
 [partyparrot.user.js]: https://raw.githubusercontent.com/imosnet/userscripts/master/partyparrot.user.js
