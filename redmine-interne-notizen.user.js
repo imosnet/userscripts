@@ -5,6 +5,7 @@
 // @downloadURL  https://raw.githubusercontent.com/imosnet/userscripts/master/redmine-interne-notizen.user.js
 // @include      https://kunden.redmine.imos.net/*
 // @include      https://intern.redmine.imos.net/*
+// @require     https://ajax.googleapis.com/ajax/libs/jquery/2.2.4/jquery.min.js
 // @grant        none
 // ==/UserScript==
 

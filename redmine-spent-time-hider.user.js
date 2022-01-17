@@ -5,6 +5,7 @@
 // @downloadURL  https://raw.githubusercontent.com/imosnet/userscripts/master/redmine-spent-time-hider.js
 // @include    *://kunden.redmine.imos.net/issues/*
 // @description  Blendet die "Aufgewendete Zeit" bei Kundentickets aus oder ein.
+// @require https://greasemonkey.github.io/gm4-polyfill/gm4-polyfill.js
 // @grant   GM_addStyle
 // @run-at document-start
 // ==/UserScript==
