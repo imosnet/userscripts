@@ -6,9 +6,10 @@
 // @match       *://kunden.redmine.imos.net/*
 // @match       *://intern.redmine.imos.net/*
 // @match       *://otrs.hq.imos.net/*
-// @version     2.3.1
+// @version     2.3.2
 // @downloadURL https://github.com/imosnet/userscripts/raw/master/page-timer.user.js
 // @icon        https://kunden.redmine.imos.net/favicon.ico
+// @require     https://ajax.googleapis.com/ajax/libs/jquery/2.2.4/jquery.min.js
 // @require     https://raw.github.com/odyniec/jQuery-tinyTimer/master/jquery.tinytimer.min.js
 // @grant       none
 // ==/UserScript==
