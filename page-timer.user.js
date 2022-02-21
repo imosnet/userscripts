@@ -6,7 +6,7 @@
 // @match       *://kunden.redmine.imos.net/*
 // @match       *://intern.redmine.imos.net/*
 // @match       *://otrs.hq.imos.net/*
-// @version     2.3.2
+// @version     2.3.3
 // @downloadURL https://github.com/imosnet/userscripts/raw/master/page-timer.user.js
 // @icon        https://kunden.redmine.imos.net/favicon.ico
 // @require     https://ajax.googleapis.com/ajax/libs/jquery/2.2.4/jquery.min.js
@@ -14,9 +14,7 @@
 // @grant       none
 // ==/UserScript==
 
-/* global jQuery */
-
-jQuery(function($){
+jQuery.noConflict(true)(function($) {
     if (location.host.match(/redmine/)) {
         $('#top-menu').append('<div style="float: right; margin-right: 0.5em; font-weight: bold; color: yellow;">Time on Page: <span class="page-timer"></span></div>');
         $('#time_entry_hours').parent('p').append('<div style="display: inline; margin-left: 0.5em; font-weight: bold; color: #505050;">(Time on Page: <span class="page-timer"></span>)</div>');

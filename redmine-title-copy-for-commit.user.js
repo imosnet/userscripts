@@ -1,7 +1,7 @@
 // ==UserScript==
 // @name        Redmine Title Copy for Commit
 // @icon        https://kunden.redmine.imos.net/favicon.ico
-// @version     0.1
+// @version     1.0
 // @downloadURL https://raw.githubusercontent.com/imosnet/userscripts/master/redmine-title-copy-for-commit.user.js
 // @include     https://kunden.redmine.imos.net/*
 // @include     https://intern.redmine.imos.net/*
@@ -9,8 +9,7 @@
 // @grant       none
 // ==/UserScript==
 
-/* global jQuery */
-jQuery.noConflict(true)(function($){
+jQuery.noConflict(true)(function($) {
     if (!$('body.controller-issues.action-show').length) return;
     var mainTitle = $('body.controller-issues.action-show h2:first').text();
     var subTitle  = $('body.controller-issues.action-show div.subject h3:first').text();

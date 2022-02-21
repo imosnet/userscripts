@@ -1,17 +1,15 @@
 // ==UserScript==
 // @name         Redmine - Interne Notizen
 // @icon         https://kunden.redmine.imos.net/favicon.ico
-// @version      1.0
+// @version      1.0.1
 // @downloadURL  https://raw.githubusercontent.com/imosnet/userscripts/master/redmine-interne-notizen.user.js
 // @include      https://kunden.redmine.imos.net/*
 // @include      https://intern.redmine.imos.net/*
-// @require     https://ajax.googleapis.com/ajax/libs/jquery/2.2.4/jquery.min.js
+// @require      https://ajax.googleapis.com/ajax/libs/jquery/2.2.4/jquery.min.js
 // @grant        none
 // ==/UserScript==
 
-/* global jQuery, $ */
-
-(function(){
+jQuery.noConflict(true)(function($) {
     'use strict';
     var $privateNotes = $('div.journal.private-notes');
     if (!$privateNotes.length) return;
