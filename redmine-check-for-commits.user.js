@@ -3,7 +3,7 @@
 // @description Prüft vor dem Submit, ob es Commits gibt. Falls ja, wird eine Warnung ausgegeben
 // @author      imos.net
 // @icon        https://kunden.redmine.imos.net/favicon.ico
-// @version     1.0
+// @version     1.0.1
 // @downloadURL https://raw.githubusercontent.com/imosnet/userscripts/master/redmine-check-for-commits.user.js
 // @include     https://kunden.redmine.imos.net/*
 // @include     http://kunden.redmine.imos.net/*
@@ -13,9 +13,7 @@
 // @grant       none
 // ==/UserScript==
 
-(function() {
-    'use strict';
-
+jQuery.noConflict(true)(function($) {
 
     $('#issue-form').submit(function(e){
         let m;
@@ -87,4 +85,4 @@
             }
         }
     })
-})();
+});
