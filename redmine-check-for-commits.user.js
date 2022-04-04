@@ -4,7 +4,7 @@
 // @author      imos.net
 // @icon        https://kunden.redmine.imos.net/favicon.ico
 // @version     1.0
-
+// @downloadURL https://raw.githubusercontent.com/imosnet/userscripts/master/redmine-check-for-commits.user.js
 // @include     https://kunden.redmine.imos.net/*
 // @include     http://kunden.redmine.imos.net/*
 // @include     https://intern.redmine.imos.net/*
