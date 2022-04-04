@@ -3,6 +3,7 @@
 - [Redmine Title Copy for Commit](#redmine-title-copy-for-commit)
 - [Redmine - Interne Notizen](#redmine---interne-notizen)
 - [Redmine Spent Time Hider](#redmine-spent-time-hider)
+- [Redmine Check for Commits](#redmine-check-for-commits)
 - [Activity Grouper](#activity-grouper)
 - [Dirty PM](#dirty-pm)
 - [Fake OptGroups](#fake-optgroups)
@@ -38,6 +39,11 @@ Blendet interne Notizen aus
 
 Blendet aufgewendete Zeit aus
 
+## Redmine Check for Commits
+[![Source][src]](redmine-check-for-commits.user.js)
+[![Install][install]][redmine-check-for-commits.user.js]
+
+Prüft vor dem Submit, ob es Commits gibt. Falls ja, wird eine Warnung ausgegeben
 
 ## Activity Grouper
 [![Source][src]](activity-grouper.user.js)
@@ -144,3 +150,4 @@ Schreibt den Projekt-Präfix (okj,test,live) in den Title für imosnet.de-WCs.
 [redmine-title-copy-for-commit.user.js]: https://raw.githubusercontent.com/imosnet/userscripts/master/redmine-title-copy-for-commit.user.js
 [redmine-interne-notizen.user.js]: https://raw.githubusercontent.com/imosnet/userscripts/master/redmine-interne-notizen.user.js
 [redmine-spent-time-hider.user.js]: https://raw.githubusercontent.com/imosnet/userscripts/master/redmine-spent-time-hider.user.js
+[redmine-check-for-commits.user.js]: https://raw.githubusercontent.com/imosnet/userscripts/master/redmine-check-for-commits.user.js
