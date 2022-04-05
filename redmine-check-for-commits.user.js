@@ -3,7 +3,7 @@
 // @description Prüft vor dem Submit, ob es Commits gibt. Falls ja, wird eine Warnung ausgegeben
 // @author      imos.net
 // @icon        https://kunden.redmine.imos.net/favicon.ico
-// @version     1.0.1
+// @version     1.1.1
 // @downloadURL https://raw.githubusercontent.com/imosnet/userscripts/master/redmine-check-for-commits.user.js
 // @include     https://kunden.redmine.imos.net/*
 // @include     http://kunden.redmine.imos.net/*
@@ -20,6 +20,33 @@ jQuery.noConflict(true)(function($) {
 
         // nur zum debuggen aktivieren
         // e.preventDefault()
+
+        // wir prüfen erst einmal, ob wir überhaupt eine Zielversion mit (current) haben, Falls nicht, brauchen wir nichts weiter zu tun
+        const zielVersionAvailible = $('#issue_fixed_version_id').text()
+        console.log(zielVersionAvailible)
+
+        const regexZielVersionAvailible = /(\(current\))/gmi; //case-insensitive suche
+
+        let matchesZielversionAvailible = false;
+
+        while ((m = regexZielVersionAvailible.exec(zielVersionAvailible)) !== null) {
+            // This is necessary to avoid infinite loops with zero-width matches
+            if (m.index === zielVersionAvailible.lastIndex) {
+                zielVersionAvailible.lastIndex++;
+            }
+
+            // The result can be accessed through the `m`-variable.
+            m.forEach((match, groupIndex) => {
+                console.log(`Found match, group ${groupIndex}: ${match}`);
+                matchesZielversionAvailible = true
+            });
+        }
+
+        if(matchesZielversionAvailible === false) {
+            console.log('Zielversion current ist nicht in der Liste')
+            $(this).unbind('submit').submit()
+            return;
+        }
 
         // wir prüfen erst einmal, ob Zielversion auf (Current ist). Falls, ja, brauchen wir nichts weiter zu tun
         const zielVersion = $('#issue_fixed_version_id option:selected').text()
@@ -45,6 +72,7 @@ jQuery.noConflict(true)(function($) {
         if(matchesZielversion === true) {
             console.log('Zielversion ist auf current')
             $(this).unbind('submit').submit()
+            return;
         }
 
         // nun prüfen wir, ob mit diesem Ticket bereits Commits verknüpft wurden
