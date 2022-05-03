@@ -45,6 +45,12 @@ Blendet aufgewendete Zeit aus
 
 Prüft vor dem Submit, ob es Commits gibt. Falls ja, wird eine Warnung ausgegeben
 
+## Redmine calculate Hours to Minutes
+[![Source][src]](redmine-calculate-hours-to-minutes.user.js)
+[![Install][install]][redmine-calculate-hours-to-minutes.user.js]
+
+Script dient zur Umrechnung von Stunden in Minuten von geschätzter Zeit und Aufgewendete Zeit
+
 ## Activity Grouper
 [![Source][src]](activity-grouper.user.js)
 [![Install][install]][activity-grouper.user.js]
@@ -151,3 +157,4 @@ Schreibt den Projekt-Präfix (okj,test,live) in den Title für imosnet.de-WCs.
 [redmine-interne-notizen.user.js]: https://raw.githubusercontent.com/imosnet/userscripts/master/redmine-interne-notizen.user.js
 [redmine-spent-time-hider.user.js]: https://raw.githubusercontent.com/imosnet/userscripts/master/redmine-spent-time-hider.user.js
 [redmine-check-for-commits.user.js]: https://raw.githubusercontent.com/imosnet/userscripts/master/redmine-check-for-commits.user.js
+[redmine-calculate-hours-to-minutes.user.js]: https://raw.githubusercontent.com/imosnet/userscripts/master/redmine-calculate-hours-to-minutes.user.js
