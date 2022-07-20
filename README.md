@@ -5,6 +5,7 @@
 - [Redmine Spent Time Hider](#redmine-spent-time-hider)
 - [Redmine Check for Commits](#redmine-check-for-commits)
 - [Redmine calculate Hours to Minutes](#redmine-calculate-hours-to-minutes)
+- [Redmine comments always private](#redmine-comments-always-private)
 - [Activity Grouper](#activity-grouper)
 - [Dirty PM](#dirty-pm)
 - [Fake OptGroups](#fake-optgroups)
@@ -51,6 +52,12 @@ Prüft vor dem Submit, ob es Commits gibt. Falls ja, wird eine Warnung ausgegebe
 [![Install][install]][redmine-calculate-hours-to-minutes.user.js]
 
 Script dient zur Umrechnung von Stunden in Minuten von geschätzter Zeit und Aufgewendete Zeit
+
+## Redmine comments always private
+[![Source][src]](redmine-comments-always-private.user.js)
+[![Install][install]][redmine-comments-always-private.user.js]
+
+Script aktiviert per default "Privater Kommentar" Checkbox
 
 ## Activity Grouper
 [![Source][src]](activity-grouper.user.js)
@@ -159,3 +166,4 @@ Schreibt den Projekt-Präfix (okj,test,live) in den Title für imosnet.de-WCs.
 [redmine-spent-time-hider.user.js]: https://raw.githubusercontent.com/imosnet/userscripts/master/redmine-spent-time-hider.user.js
 [redmine-check-for-commits.user.js]: https://raw.githubusercontent.com/imosnet/userscripts/master/redmine-check-for-commits.user.js
 [redmine-calculate-hours-to-minutes.user.js]: https://raw.githubusercontent.com/imosnet/userscripts/master/redmine-calculate-hours-to-minutes.user.js
+[redmine-comments-always-private.user.js]: https://raw.githubusercontent.com/imosnet/userscripts/master/redmine-comments-always-private.user.js
