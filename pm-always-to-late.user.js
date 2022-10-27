@@ -2,7 +2,7 @@
 // @name        PM always to late
 // @icon        *://pm.hq.imos.net/favicon.ico
 // @version     1.0.0
-// @downloadURL https://raw.githubusercontent.com/imosnet/userscripts/master/pm-always-to-late.js
+// @downloadURL https://raw.githubusercontent.com/imosnet/userscripts/master/pm-always-to-late.user.js
 // @match       *://pm.hq.imos.net/power-tracking/*
 // @require     https://code.jquery.com/jquery-3.6.0.min.js
 // @grant       none
