@@ -15,6 +15,7 @@
 - [MDN I'm Feeling Lucky](#mdn-im-feeling-lucky)
 - [imos Page Timer](#imos-page-timer)
 - [Party Parrot: PARTY OR DIE](#party-parrot-party-or-die)
+- [PM always to late](#pm-always-to-late)
 - [PM Datepicker](#pm-datepicker)
 - [Redmine Überfällig](#redmine-überfällig)
 - [Submit bei Strg+S](#submit-bei-strgs)
@@ -113,6 +114,12 @@ Misst die Zeit, die ein OTRS- oder Redmine-Ticket im Browser geöffnet war.
 
 PARTY OR DIE! thx @cuidas.
 
+## PM always to late
+[![Source][src]](pm-always-to-late.js)
+[![Install][install]][pm-always-to-late.js]
+
+Zeigt die Zeitdifferenz zwischen Anwesenheit und gebuchten Zeiten in Minuten an
+
 ## PM Datepicker
 [![Source][src]](pm-datepicker.user.js)
 [![Install][install]][pm-datepicker.user.js]
@@ -167,3 +174,4 @@ Schreibt den Projekt-Präfix (okj,test,live) in den Title für imosnet.de-WCs.
 [redmine-check-for-commits.user.js]: https://raw.githubusercontent.com/imosnet/userscripts/master/redmine-check-for-commits.user.js
 [redmine-calculate-hours-to-minutes.user.js]: https://raw.githubusercontent.com/imosnet/userscripts/master/redmine-calculate-hours-to-minutes.user.js
 [redmine-comments-always-private.user.js]: https://raw.githubusercontent.com/imosnet/userscripts/master/redmine-comments-always-private.user.js
+[pm-always-to-late.js]: https://raw.githubusercontent.com/imosnet/userscripts/master/pm-always-to-late.js
