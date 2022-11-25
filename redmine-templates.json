@@ -1,0 +1,12 @@
+{
+  "templates": {
+    "ci": "
+    ---
+    Interne Notiz:
+    
+    * 
+    
+    Siehe r",
+    "me": "h2.Besprechung"
+  }
+}
