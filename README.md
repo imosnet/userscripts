@@ -6,6 +6,7 @@
 - [Redmine Check for Commits](#redmine-check-for-commits)
 - [Redmine calculate Hours to Minutes](#redmine-calculate-hours-to-minutes)
 - [Redmine comments always private](#redmine-comments-always-private)
+- [Redmine Templates](#redmine-templates)
 - [Activity Grouper](#activity-grouper)
 - [Dirty PM](#dirty-pm)
 - [Fake OptGroups](#fake-optgroups)
@@ -59,6 +60,12 @@ Script dient zur Umrechnung von Stunden in Minuten von geschätzter Zeit und Auf
 [![Install][install]][redmine-comments-always-private.user.js]
 
 Script aktiviert per default "Privater Kommentar" Checkbox
+
+## Redmine Templates
+[![Source][src]](redmine-templates.user.js)
+[![Install][install]][redmine-templates.user.js]
+
+Stellt Custom-Text-Templates zur Verfügung. Anpassbar über [redmine-templates.json](redmine-templates.json)
 
 ## Activity Grouper
 [![Source][src]](activity-grouper.user.js)
@@ -174,4 +181,6 @@ Schreibt den Projekt-Präfix (okj,test,live) in den Title für imosnet.de-WCs.
 [redmine-check-for-commits.user.js]: https://raw.githubusercontent.com/imosnet/userscripts/master/redmine-check-for-commits.user.js
 [redmine-calculate-hours-to-minutes.user.js]: https://raw.githubusercontent.com/imosnet/userscripts/master/redmine-calculate-hours-to-minutes.user.js
 [redmine-comments-always-private.user.js]: https://raw.githubusercontent.com/imosnet/userscripts/master/redmine-comments-always-private.user.js
+[redmine-templates.user.js]: https://raw.githubusercontent.com/imosnet/userscripts/master/redmine-templates.user.js
+[redmine-templates.json]: https://raw.githubusercontent.com/imosnet/userscripts/master/redmine-templates.json
 [pm-always-to-late.user.js]: https://raw.githubusercontent.com/imosnet/userscripts/master/pm-always-to-late.user.js
