@@ -1,6 +1,6 @@
 {
   "templates": {
     "ci": "\n---\n\nInterne Notiz:\n\n* \n\nSiehe r",
-    "me": "h2.Besprechung"
+    "me": "h2.Besprechung\n\n"
   }
 }
